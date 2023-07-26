@@ -18,7 +18,7 @@ import "./styles/mediaquery.scss";
 function App() {
   return (
     <Router>
-      {/* <Header/> */}
+      <Header/>
       <Routes>
         <Route path ="/" element = {<Home />}/>
         <Route path ="/Contact" element = {<Contact />}/>
