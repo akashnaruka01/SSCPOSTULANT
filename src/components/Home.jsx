@@ -55,7 +55,6 @@ const Home = () => {
           <h1>Doubts</h1>
 
           <article>
-
             <div style={{ animationDelay: "0.1s" }}>
               <AiFillGoogleCircle />
               <p>Google</p>
@@ -75,7 +74,6 @@ const Home = () => {
               <AiFillInstagram />
               <p>Instagram</p>
             </div>
-
           </article>
         </div>
       </div>
