@@ -1,15 +1,15 @@
 @import "colors";
 
 @media screen and (max-width: 1024px) {
-  .home{
-      >main{
-        >h1{
-        font-size: 5rem ;
-        }
-        >p{
-          font-size: 1.5rem;
-        }
+  .home {
+    > main {
+      > h1 {
+        font-size: 5rem;
       }
+      > p {
+        font-size: 1.5rem;
+      }
+    }
   }
   .contact {
     > main {
@@ -32,8 +32,8 @@
       }
     }
   }
-  .contact{
-    >main{
+  .contact {
+    > main {
       border-radius: 8rem;
     }
   }
@@ -133,46 +133,55 @@
 }
 
 @media screen and (max-width: 426px) {
-
   .home {
     > main {
       h1 {
         font-size: 2.3rem;
       }
-      p{
+      p {
         font-size: 0.8rem;
       }
     }
-    &::before{
+    &::before {
       border-radius: 40px;
       background-position: -100px 0px;
       filter: blur(1px);
     }
   }
 
-  .home2{
-    img{
+  .home2 {
+    img {
       width: 100%;
     }
-  }
-  
-  .contact{
-    >main{
-    border-radius: 0;}
-  }
-  
-  .home3{
-    margin-top: 0;
-    height: 160vh;    
     >div{
-      justify-content: start;
-      height: 160vh;
-     
+      >p{
+        font-weight: 700;
+        font-family: roboto;
+      }
     }
   }
 
-  .home4{
-    >div{
+  .contact {
+    > main {
+      border-radius: 0;
+    }
+  }
+
+  .home3 {
+    margin-top: 0;
+    height: 160vh;
+    > div {
+      justify-content: start;
+      height: 160vh;
+      > p {
+        font-weight: 700;
+        font-family: roboto;
+      }
+    }
+  }
+
+  .home4 {
+    > div {
       width: 100% !important;
       border-radius: 200px;
     }
